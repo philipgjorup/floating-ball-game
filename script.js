@@ -3,7 +3,7 @@ const gameArea = document.getElementById('gameArea');
 const scoreDisplay = document.getElementById('score');
 
 let ballY = 250; // Initial vertical position of the ball
-let gravity = 2.8; // Gravity effect
+let gravity = 3; // Gravity effect
 let isGameOver = false; // Game over flag
 let isPaused = false; // Pause flag
 let score = 0; // Player's score
