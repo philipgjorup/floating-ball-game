@@ -1,0 +1,33 @@
+body {
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#gameArea {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    position: relative;
+    overflow: hidden;
+    background-image: url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Mountain image URL */
+    background-size: cover; /* Cover the entire area */
+}
+
+#ball {
+    width: 40px; /* Width of the ball */
+    height: 40px; /* Height of the ball */
+    background-color: #b916a3; /* Color for the ball */
+    position: absolute;
+    border-radius: 50%; /* Make it a circle */
+}
+
+.pipe {
+    position: absolute;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: white;
+}
